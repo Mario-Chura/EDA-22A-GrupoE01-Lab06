@@ -18,4 +18,17 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 		}
 	}
 
+    // Nodos internos: solo usa clave y siguiente
+	// Nodos externos: solo usa clave y valor
+	private static class Entry {
+		private Comparable key;
+		private Object val;
+		private Node next;     // helper field to iterate over array entries
+		public Entry(Comparable key, Object val, Node next) {
+			this.key  = key;
+			this.val  = val;
+			this.next = next;
+		}
+	}
+
 }
