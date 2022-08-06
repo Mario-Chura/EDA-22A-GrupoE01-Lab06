@@ -57,8 +57,9 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 
 		// Nodo externo
 		if (ht == 0) {
+			System.out.println("Coincidencias para : "+key);
 			for (int j = 0; j < x.m; j++) {
-				if (eq(key, children[j].key)) return (Value) children[j].val;
+				if (eq(key, children[j].key)) System.out.println((Value) children[j].val);
 			}
 		}
 
