@@ -25,7 +25,7 @@ public class Prueba {
 		System.out.println("-------------------------------------------------------------");
 		
 		System.out.println("cs.princeton.edu:  " + st.get("www.cs.princeton.edu"));
-		System.out.println("cs.princeton.edu:  " + st.get("www.cs.princeton.edu"));
+		
 		System.out.println("hardvardsucks.com: " + st.get("www.harvardsucks.com"));
 		System.out.println("simpsons.com:      " + st.get("www.simpsons.com"));
 		System.out.println("apple.com:         " + st.get("www.apple.com"));
