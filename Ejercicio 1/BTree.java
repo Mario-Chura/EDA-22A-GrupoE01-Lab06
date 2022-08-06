@@ -72,4 +72,21 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 		return null;
 	}
 
+    //Inserta el par clave-valor en la tabla de símbolos, sobrescribiendo el valor antiguo con el valor nuevo si la clave ya está en la tabla de símbolos.
+	//Si el valor es {@code null}, esto elimina efectivamente la clave de la tabla de símbolos
+	
+	public void put(Key key, Value val) {
+		if (key == null) throw new IllegalArgumentException("argument key to put() is null");
+		Node u = insert(root, key, val, height); 
+		n++;
+		if (u == null) return;
+
+		// need to split root
+		Node t = new Node(2);
+		t.children[0] = new Entry(root.children[0].key, null, root);
+		t.children[1] = new Entry(u.children[0].key, null, u);
+		root = t;
+		height++;
+	}
+
 }
