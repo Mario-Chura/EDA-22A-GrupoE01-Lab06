@@ -31,4 +31,25 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 		}
 	}
 
+    public BTree() {
+		root = new Node(0);
+	}
+
+	public boolean isEmpty() {
+		return size() == 0;
+	}
+
+	public int size() {
+		return n;
+	}
+
+	public int height() {
+		return height;
+	}
+
+	public Value get(Key key) {
+		if (key == null) throw new IllegalArgumentException("argument to get() is null");
+		return search(root, key, height);
+	
+
 }
