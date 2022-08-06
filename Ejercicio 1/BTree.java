@@ -154,4 +154,13 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 		return s.toString();
 	}
 
+    // Funciones de comparación
+	private boolean less(Comparable k1, Comparable k2) {
+		return k1.compareTo(k2) < 0;
+	}
+
+	private boolean eq(Comparable k1, Comparable k2) {
+		return k1.compareTo(k2) == 0;
+	}
+
 }
