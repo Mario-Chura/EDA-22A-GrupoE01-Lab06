@@ -122,4 +122,13 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 		else         return split(h);
 	}
 
+    // Dividir el nodo por la mitad
+	private Node split(Node h) {
+		Node t = new Node(M/2);
+		h.m = M/2;
+		for (int j = 0; j < M/2; j++)
+			t.children[j] = h.children[M/2+j]; 
+		return t;    
+	}
+
 }
