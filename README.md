@@ -67,7 +67,9 @@ ingresados. (4 puntos)
 3.  Ejercicio 3 : El método toString() del árbol, retorna lo siguiente. ¿Por qué están entre paréntesis
 ciertas claves? (4 puntos)
 	- Procedimiento
-4.  Ejercicio 4 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
+4.  Ejercicio 4 : Mostrar paso a paso el arbol-B al eliminar " www.espn.com": (4 puntos)
+	- Procedimiento
+4.  Ejercicio 5 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
 paso. (3 puntos)
 	- Procedimiento
 	
