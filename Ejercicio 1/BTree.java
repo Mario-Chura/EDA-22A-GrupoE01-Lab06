@@ -23,7 +23,7 @@ public class BTree<Key extends Comparable<Key>, Value>  {
 	private static class Entry {
 		private Comparable key;
 		private Object val;
-		private Node next;     // helper field to iterate over array entries
+		private Node next;     // campo auxiliar para iterar sobre las entradas de la matriz
 		public Entry(Comparable key, Object val, Node next) {
 			this.key  = key;
 			this.val  = val;
