@@ -86,6 +86,24 @@ La estrutura del presente laboratorio es la siguiente:
    ```
     
 1.  Ejercicio 1 : Modificar el método de obtención de valor dado una clave (5 puntos)
+	- Ejemplo : Si en el código, para la clave www.simpsons.com, invocado de la siguiente manera:
+	```py
+		System.out.println("simpsons.com: " + st.get("wwwsimpsons.com")); 
+   	```
+	Retorna:
+	```py
+		simpsons.com: 209.052.165.60
+   	```
+	Para la clave "www.cs.princeton.edu", retorna:
+	```py
+		cs.princeton.edu: 128.112.136.12
+   	```
+	Se puede observar que se está obteniendo el valor de la primera clave encontrada. Dado que al árbol se le ingresan dos valores:
+	```py
+		st.put("www.cs.princeton.edu", "128.112.136.12"); 
+		st.put("www.cs.princeton.edu", "128.112.136.11");
+   	```
+	Se requiere: Modificar el código para que también pueda mostrarse todos los valores asociados a la clave.
 	- Procedimiento
 2.  Ejercicio 2 : Mostrar en un diagrama de árbol gráficamente la estructura final para los datos
 ingresados. (4 puntos)
