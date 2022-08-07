@@ -107,10 +107,56 @@ La estrutura del presente laboratorio es la siguiente:
 	- Procedimiento
 2.  Ejercicio 2 : Mostrar en un diagrama de árbol gráficamente la estructura final para los datos
 ingresados. (4 puntos)
-	- Procedimiento
+	- Para el ingreso de datos vamos a trabajar con un árbol B de **grado 4** por lo que vamos a tener como máximo 3 valores y mínimo 1.
+	- Los datos ingresados (clave - valor) del árbol B son los siguientes:
+	```py
+		st.put("www.cs.princeton.edu", "128.112.136.12");
+		st.put("www.cs.princeton.edu", "128.112.136.11");
+		st.put("www.princeton.edu",    "128.112.128.15");
+		st.put("www.yale.edu",         "130.132.143.21");
+		st.put("www.simpsons.com",     "209.052.165.60");
+		st.put("www.apple.com",        "17.112.152.32");
+		st.put("www.amazon.com",       "207.171.182.16");
+		st.put("www.ebay.com",         "66.135.192.87");
+		st.put("www.cnn.com",          "64.236.16.20");
+		st.put("www.google.com",       "216.239.41.99");
+		st.put("www.nytimes.com",      "199.239.136.200");
+		st.put("www.microsoft.com",    "207.126.99.140");
+		st.put("www.dell.com",         "143.166.224.230");
+		st.put("www.slashdot.org",     "66.35.250.151");
+		st.put("www.espn.com",         "199.181.135.201");
+		st.put("www.weather.com",      "63.111.66.11");
+		st.put("www.yahoo.com",        "216.109.118.65");
+   	```
 3.  Ejercicio 3 : El método toString() del árbol, retorna lo siguiente. ¿Por qué están entre paréntesis
 ciertas claves? (4 puntos)
-	- Procedimiento
+	- Como salida del método toString tenemos lo siguiente:
+	```py
+		          www.amazon.com 207.171.182.16
+		          www.apple.com 17.112.152.32
+		          www.cnn.com 64.236.16.20
+		     (www.cs.princeton.edu)
+		          www.cs.princeton.edu 128.112.136.12
+ 		         www.cs.princeton.edu 128.112.136.11
+		          www.dell.com 143.166.224.230
+		(www.ebay.com)
+		          www.ebay.com 66.135.192.87
+		          www.espn.com 199.181.135.201
+		          www.google.com 216.239.41.99
+		     (www.microsoft.com)
+		          www.microsoft.com 207.126.99.140
+ 		         www.nytimes.com 199.239.136.200
+		(www.princeton.edu)
+		          www.princeton.edu 128.112.128.15
+		          www.simpsons.com 209.052.165.60
+ 		    (www.slashdot.org)
+		          www.slashdot.org 66.35.250.151
+ 		         www.weather.com 63.111.66.11
+ 		    (www.yahoo.com)
+ 		         www.yahoo.com 216.109.118.65
+		          www.yale.edu 130.132.143.21
+   	```
+
 4.  Ejercicio 4 : Mostrar paso a paso el arbol-B al eliminar " www.espn.com": (4 puntos)
 	- Procedimiento
 4.  Ejercicio 5 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
