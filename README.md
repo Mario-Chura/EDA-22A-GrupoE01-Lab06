@@ -93,7 +93,7 @@ paso. (3 puntos)
 
 <div align="center"><h2> REFERENCIAS Y BIBLIOGRAFÍA </h2></div> <br>
 
--   1
--   2
--   3
--   4
+-   https://people.ksp.sk/~kuko/gnarley-trees/Btree.html
+-   https://www.cs.usfca.edu/~galles/visualization/BTree.html
+-   https://algs4.cs.princeton.edu/62btree/BTree.java.html
+-   https://www.youtube.com/watch?v=kAzYAy6AJbg&t=236s&ab_channel=Prof.EdgarTista
