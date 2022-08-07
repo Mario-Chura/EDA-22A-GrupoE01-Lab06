@@ -84,7 +84,7 @@ paso. (3 puntos)
 ### III.	CONCLUSIONES
 #
 -La estructura de los arboles B nos permites que las operaciones de inserción, búsqueda y eliminación tenga una complejidad de orden O(log(n)). <br>
--Conclusion 2 <br>
+-Como podemos observar en el llenado de un árbol B cada nodo como mínimo esta a la mitad de su capacidad, es por ello que se dice que un árbol B mantiene una estructura “half-full”. <br>
 -Conclusion 3 <br>
 -Conclusion 4 <br>
 -Conclusion 5 <br>
