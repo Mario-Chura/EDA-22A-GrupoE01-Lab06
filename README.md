@@ -58,7 +58,33 @@
 <div align="center"><h2> SOLUCIÓN Y RESULTADOS </h2></div>
 
 ### I.	SOLUCIÓN DE EJERCICIOS/PROBLEMAS
-#	
+#
+La estrutura del presente laboratorio es la siguiente:
+
+   
+
+   ```sh
+
+	    ├── EDA-22A-GrupoE01-Lab06
+	    │   ├── Ejercicio 1
+	    │   │    ├── BTree.java
+	    │   │    └── Prueba.java
+	    │   │
+	    │   ├── Ejercicio 2
+	    │   │    └── Imagenes (Prodedimiento)
+	    │   │
+	    │   ├── Ejercicio 3
+	    │   │    └── Imagenes (Prodedimiento)
+	    │   │
+	    │   ├── Ejercicio 4
+	    │   │    └── Imagenes (Prodedimiento)
+	    │   │
+	    │   ├── Ejercicio 5
+	    │   │    └── Imagenes (Prodedimiento)
+	    │   │
+	    └── README.md
+   ```
+    
 1.  Ejercicio 1 : Modificar el método de obtención de valor dado una clave (5 puntos)
 	- Procedimiento
 2.  Ejercicio 2 : Mostrar en un diagrama de árbol gráficamente la estructura final para los datos
