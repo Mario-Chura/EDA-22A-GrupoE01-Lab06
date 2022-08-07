@@ -85,9 +85,13 @@ paso. (3 puntos)
 #
 -La estructura de los arboles B nos permites que las operaciones de inserción, búsqueda y eliminación tenga una complejidad de orden O(log(n)). <br>
 -Como podemos observar en el llenado de un árbol B cada nodo como mínimo esta a la mitad de su capacidad, es por ello que se dice que un árbol B mantiene una estructura “half-full”, no va haber nodos vacíos o menos de la mitad de su capacidad, la raíz es el unido que se exime de esa característica. <br>
--Conclusion 3 <br>
+-Los arboles b son buenos porque son muy eficientes al aplicarlos en dispositivos de almacenamientos secundarios. <br>
 -Conclusion 4 <br>
 -Conclusion 5 <br>
+-Conclusion 6 <br>
+-Conclusion 7 <br>
+-Conclusion 8 <br>
+-Conclusion 9 <br>
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
 
