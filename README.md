@@ -83,7 +83,7 @@ paso. (3 puntos)
 
 ### III.	CONCLUSIONES
 #
--Conclusion 1 <br>
+-La estructura de los arboles B nos permites que las operaciones de inserción, búsqueda y eliminación tenga una complejidad de orden O(log(n)). <br>
 -Conclusion 2 <br>
 -Conclusion 3 <br>
 -Conclusion 4 <br>
