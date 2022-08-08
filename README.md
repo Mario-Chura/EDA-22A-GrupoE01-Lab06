@@ -66,22 +66,22 @@ La estrutura del presente laboratorio es la siguiente:
    ```sh
 
 	    ├── EDA-22A-GrupoE01-Lab06
-	    │   ├── Ejercicio 1
+	    │   ├── Ejercicio_1
 	    │   │    ├── BTree.java
 	    │   │    └── Prueba.java
 	    │   │
-	    │   ├── Ejercicio 2
+	    │   ├── Ejercicio_2
 	    │   │    └── Imagenes (Prodedimiento)
 	    │   │
-	    │   ├── Ejercicio 3
+	    │   ├── Ejercicio_3
 	    │   │    └── Imagenes (Prodedimiento)
 	    │   │
-	    │   ├── Ejercicio 4
+	    │   ├── Ejercicio_4
 	    │   │    └── Imagenes (Prodedimiento)
 	    │   │
-	    │   ├── Ejercicio 5
-	    │   │    └── Imagenes (Prodedimiento)
-	    │   │
+	    │   ├── Ejercicio_5
+	    │        └── Imagenes (Prodedimiento)
+	    │   
 	    └── README.md
    ```
     
