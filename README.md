@@ -129,7 +129,9 @@ ingresados. (4 puntos)
 		st.put("www.yahoo.com",        "216.109.118.65");
    	```
 	- Primero empezamos agregando ("www.cs.princeton.edu", "128.112.136.12") y ("www.cs.princeton.edu", "128.112.136.11") y se posicionan de la siguiente manera:
-	![imagen](Ejercicio 3/Img1.jpg)
+	
+	![imagen](Ejercicio 2/Img1.jpg)
+	
 3.  Ejercicio 3 : El método toString() del árbol, retorna lo siguiente. ¿Por qué están entre paréntesis
 ciertas claves? (4 puntos)
 	- Como salida del método toString tenemos lo siguiente:
