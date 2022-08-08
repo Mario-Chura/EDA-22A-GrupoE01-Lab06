@@ -140,9 +140,59 @@ ingresados. (4 puntos)
 	
 	![imagen](Ejercicio_2/Img3.jpg)
 	
-	- Agregamos ("www.simpsons.com", "209.052.165.60"), y este se ubica entre "priceton" y "yale" como se muestra:
+	- Agregamos ("www.simpsons.com",     "209.052.165.60")
 	
 	![imagen](Ejercicio_2/Img4.jpg)
+	
+	- Agregamos ("www.apple.com",        "17.112.152.32")
+	
+	![imagen](Ejercicio_2/Img5.jpg)
+	
+	- Agregamos ("www.amazon.com",       "207.171.182.16")
+	
+	![imagen](Ejercicio_2/Img6.jpg)
+	
+	- Agregamos ("www.ebay.com",         "66.135.192.87")
+	
+	![imagen](Ejercicio_2/Img7.jpg)
+	
+	- Agregamos ("www.cnn.com",          "64.236.16.20")
+	
+	![imagen](Ejercicio_2/Img8.jpg)
+	
+	- Agregamos ("www.google.com",       "216.239.41.99")
+	
+	![imagen](Ejercicio_2/Img9.jpg)
+	
+	- Agregamos ("www.nytimes.com",      "199.239.136.200")
+	
+	![imagen](Ejercicio_2/Img10.jpg)
+	
+	- Agregamos ("www.microsoft.com",    "207.126.99.140")
+	
+	![imagen](Ejercicio_2/Img11.jpg)
+	
+	- Agregamos ("www.dell.com",         "143.166.224.230")
+	
+	![imagen](Ejercicio_2/Img12.jpg)
+	
+	- Agregamos ("www.slashdot.org",     "66.35.250.151")
+	
+	![imagen](Ejercicio_2/Img13.jpg)
+	
+	- Agregamos ("www.espn.com",         "199.181.135.201")
+	
+	![imagen](Ejercicio_2/Img14.jpg)
+	
+	- Agregamos ("www.weather.com",      "63.111.66.11")
+	
+	![imagen](Ejercicio_2/Img15.jpg)
+	
+	- Finalmente agregamos ("www.yahoo.com", "216.109.118.65") y nuestro árbol B queda de la siguiente manera:
+	
+	![imagen](Ejercicio_2/Img16.jpg)
+	
+
 	
 	
 	
