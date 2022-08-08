@@ -250,8 +250,8 @@ Como se puede ver en la imagen las direcciones que presentan paréntesis en los 
 4.  Ejercicio 5 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
 paso. (3 puntos)
 
-	- Para la agregar de ***www.youtube.com***, comenzamos con la búsqueda de este elemento
-	- Primero se busca en la raíz de la siguiente manera:
+	- Para la agregar de ***www.youtube.com***, comenzamos con la comparacion de claves de nuestro arbol
+	- Primero se compara con la raíz de la siguiente manera:
 	
 	![imagen](Ejercicio_5/Img1.jpg)
 	
