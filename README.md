@@ -104,7 +104,12 @@ La estrutura del presente laboratorio es la siguiente:
 		st.put("www.cs.princeton.edu", "128.112.136.11");
    	```
 	Se requiere: Modificar el código para que también pueda mostrarse todos los valores asociados a la clave.
-	- Procedimiento
+	- Se modifico el metodo en la carpeta Ejercici_1 ejecutando se obtuvo el siguiente resultado:
+	```py
+		Coincidencias para : www.cs.princeton.edu
+		128.112.136.12
+		128.112.136.11
+   	```
 2.  Ejercicio 2 : Mostrar en un diagrama de árbol gráficamente la estructura final para los datos
 ingresados. (4 puntos)
 	- Para el ingreso de datos vamos a trabajar con un árbol B de **grado 4** por lo que vamos a tener como máximo 3 valores y mínimo 1.
