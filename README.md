@@ -132,6 +132,20 @@ ingresados. (4 puntos)
 	
 	![imagen](Ejercicio_2/Img1.jpg)
 	
+	- Luego agregamos ("www.princeton.edu", "128.112.128.15"), como no supera el limite se ubica al constado
+	
+	![imagen](Ejercicio_2/Img2.jpg)
+	
+	- Agregamos ("www.yale.edu", "130.132.143.21"), nuestro nodo se divide por que superamos el limite de elementos por nodo y se dispone de la siguiente manera:
+	
+	![imagen](Ejercicio_2/Img3.jpg)
+	
+	- Agregamos ("www.simpsons.com", "209.052.165.60"), y este se ubica entre "priceton" y "yale" como se muestra:
+	
+	![imagen](Ejercicio_2/Img4.jpg)
+	
+	
+	
 3.  Ejercicio 3 : El método toString() del árbol, retorna lo siguiente. ¿Por qué están entre paréntesis
 ciertas claves? (4 puntos)
 	- Como salida del método toString tenemos lo siguiente:
