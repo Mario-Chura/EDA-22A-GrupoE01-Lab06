@@ -249,9 +249,33 @@ Como se puede ver en la imagen las direcciones que presentan paréntesis en los 
 	
 4.  Ejercicio 5 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
 paso. (3 puntos)
-	- Procedimiento
+
+	- Para la agregar de ***www.youtube.com***, comenzamos con la búsqueda de este elemento
+	- Primero se busca en la raíz de la siguiente manera:
 	
-   
+	![imagen](Ejercicio_5/Img1.jpg)
+	
+	- Como el elemento es mayor nos dirigimos al lado derecho de la siguiente manera:
+	
+	![imagen](Ejercicio_5/Img2.jpg)
+
+	- En este nodo también es mayor que ***www.slashdot.org** por lo que nos seguimos dirigiendo de la siguiente manera:
+	
+	![imagen](Ejercicio_5/Img3.jpg)
+	
+	- Aquí el nuevo elemento se ubica a la derecha de ***www.yale.edu*** porque es mayor que este, pero ahora tenemos más elementos de los que puede tener un nodo por lo que hacemos una redistribución
+	
+	![imagen](Ejercicio_5/Img4.jpg)
+	
+	- En esta primera redistribución el elemento ***www.yahoo.com*** sube un nivel, encontrándonos en el mismo caso donde tenemos más elementos de los que puede tener un nodo:
+
+	![imagen](Ejercicio_5/Img5.jpg)
+	
+	- De este modo realizamos una segunda redistribución, quedando nuestro árbol B de la siguiente manera:
+	
+	![imagen](Ejercicio_5/Img6.jpg)
+
+	
 #
 
 ### II.	SOLUCIÓN DEL CUESTIONARIO
@@ -266,10 +290,7 @@ paso. (3 puntos)
 -Los arboles b son buenos porque son muy eficientes al aplicarlos en dispositivos de almacenamientos secundarios. <br>
 -Siempre que se realizan operaciones de eliminación e inserción el árbol permanece perfectamente balanceado.  <br>
 -Que los arboles B suplen el uso excesivo de almacenamiento que presenta el arbol binario, por otro lado tambien brindan un mejor rendimiento en la velocidad de acceso a los datos. <br>
--Conclusion 6 <br>
--Conclusion 7 <br>
--Conclusion 8 <br>
--Conclusion 9 <br>
+
 #
 <div align="center"><h2>  RETROALIMENTACIÓN GENERAL </h2></div> <br>
 
