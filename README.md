@@ -177,7 +177,7 @@ paso. (3 puntos)
 -Como podemos observar en el llenado de un árbol B cada nodo como mínimo esta a la mitad de su capacidad, es por ello que se dice que un árbol B mantiene una estructura “half-full”, no va haber nodos vacíos o menos de la mitad de su capacidad, la raíz es el unido que se exime de esa característica. <br>
 -Los arboles b son buenos porque son muy eficientes al aplicarlos en dispositivos de almacenamientos secundarios. <br>
 -Siempre que se realizan operaciones de eliminación e inserción el árbol permanece perfectamente balanceado.  <br>
--Conclusion 5 <br>
+-Que los arboles B suplen el uso excesivo de almacenamiento que presenta el arbol binario, por otro lado tambien brindan un mejor rendimiento en la velocidad de acceso a los datos. <br>
 -Conclusion 6 <br>
 -Conclusion 7 <br>
 -Conclusion 8 <br>
