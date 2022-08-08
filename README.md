@@ -229,7 +229,24 @@ ciertas claves? (4 puntos)
 Como se puede ver en la imagen las direcciones que presentan paréntesis en los costados son aquellas que se encuentran en niveles superiores diferentes al nivel hoja , por ejemplo el link (www.ebay.edu) al ser impreso se encuentra mas hacia la izquierda de las demas direcciones esto debido a que se encuentra en el nivel superior , osea en la raiz ,por otro lado el link microsoft.com tambien presenta parentesis pero se encuentra un poco mas a la derecha esto debido a q se encuentra en un nivel inferior al de la raiz pero distinto al de las hojas .
 
 4.  Ejercicio 4 : Mostrar paso a paso el arbol-B al eliminar " www.espn.com": (4 puntos)
-	- Procedimiento
+	- Para la eliminación de ***www.espn.com***, comenzamos con la búsqueda de este elemento
+	- Primero se busca en la raíz de la siguiente manera:
+	
+	![imagen](Ejercicio_4/Img1.jpg)
+	
+	- Como el elemento es mayor nos dirigimos a la derecha como se muestra:
+	
+	![imagen](Ejercicio_4/Img2.jpg)
+	
+	- Ahora como el elemento es menor que ***www.google.com*** nos dirigimos a su izquierda:
+	
+	![imagen](Ejercicio_4/Img3.jpg)
+	
+	- Ya ubicado el elemento el cual es mayor a ***www.ebay.com*** como el nodo que queremos eliminar es una hoja, también se debe de tomar en cuenta si el nodo después de la eliminación cumple con los elementos mínimos en un nodo, en este caso si cumple por lo que no tenemos que hacer una redistribución, nuestro árbol resultante quedara de la siguiente manera:
+	
+	![imagen](Ejercicio_4/Img4.jpg)
+
+	
 4.  Ejercicio 5 : Agregar un nodo adicional (www.youtube.com, 134.24.13.78) y mostrarlo paso a
 paso. (3 puntos)
 	- Procedimiento
